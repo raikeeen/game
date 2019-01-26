@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Models\news;
+use App\Models\news;
 use Illuminate\View\View;
 
 class newsController extends Controller
@@ -15,4 +15,5 @@ class newsController extends Controller
         //return View('animalclasses.index', ['classList' => $classes]);
         return view('news.index');
     }
+
 }
